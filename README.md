@@ -70,3 +70,68 @@ Pastikan akses dokumen diatur menjadi *Anyone with the link — Viewer*.
 ## 7. Kesimpulan
 
 Melalui TP5, proyek Character Manager dikembangkan dengan fitur pengelolaan karakter dan pengujian perilaku object. Tugas ini juga membantu memahami pengelolaan koleksi, encapsulation, reference, defensive copy, serta penggunaan Git dan GitHub untuk menyimpan riwayat pengembangan program.
+
+
+
+--------
+## TP8 — Character Manager Sprint #3
+
+### 1. Deskripsi
+
+Pada TP8, proyek Character Manager dikembangkan
+dari aplikasi berbasis console menjadi aplikasi
+GUI menggunakan Java Swing.
+
+Aplikasi menampilkan daftar karakter secara dinamis,
+informasi level, HP, attack, mana, serta statistik
+rata-rata level.
+
+Aplikasi juga memiliki fitur untuk menambahkan
+karakter baru melalui formulir GUI.
+
+### 2. Screenshot Aplikasi
+
+#### Sebelum Penambahan Karakter
+
+![GUI Sebelum](tp8-sebelum.png)
+
+#### Sesudah Penambahan Karakter
+
+![GUI Sesudah](tp8-sesudah.png)
+
+### 3. Alur Data dan MVC
+
+Main.java membuat objek Character dan mengatur
+level serta mana setiap karakter. Selanjutnya,
+CharacterManager menyimpan dan mengelola daftar
+karakter serta menyediakan method untuk mengambil
+data dan menghitung rata-rata level.
+
+MainWindow berperan sebagai View yang mengambil
+data dari CharacterManager dan menampilkannya
+melalui JLabel secara dinamis. Ketika pengguna
+menambahkan karakter melalui formulir GUI,
+MainWindow meminta CharacterManager menyimpan
+karakter tersebut, kemudian memperbarui tampilan
+dan statistik.
+
+Dalam konsep MVC, Character dan CharacterManager
+berperan sebagai Model, sedangkan MainWindow
+berperan sebagai View. Pada implementasi ini,
+belum ada Controller terpisah.
+
+### 4. Karakter Baru
+
+- Sinta — MAGE, Level 4, Mana 40.
+  Dipilih sebagai karakter penyihir dengan level
+  menengah dan mana yang cukup tinggi.
+
+- Damar — WARRIOR, Level 6, Mana 25.
+  Dipilih sebagai karakter petarung dengan level
+  lebih tinggi daripada karakter pemula.
+
+### 5. Analisis GUI dan MVC
+
+Dokumen analisis Google Docs:
+
+[https://1drv.ms/w/c/EF681E4F4E3CE288/IQCVjYgbhaBeRrGWPrY4-RD8ASXF7lKziWi85TCA0ig1Hl8?e=nGYvXl]
