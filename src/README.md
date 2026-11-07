@@ -23,7 +23,7 @@ Program ini bertujuan untuk menerapkan konsep Object-Oriented Programming (OOP),
 
 Berikut merupakan hasil pengujian program Character Manager TP3.
 
-![Screenshot Output Character Manager](output_tp3.png)
+![Screenshot Output Character Manager](Screenshot/output_tp3.png)
 
 ## Struktur Folder Project
 
